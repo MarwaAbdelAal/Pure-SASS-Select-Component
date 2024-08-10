@@ -6,7 +6,6 @@ type CustomOptionProps = {
 };
 
 const CustomOption = ({ option }: CustomOptionProps) => {
-  console.log(option);
   return (
     <div className={styles.container}>
       <span
