@@ -6,7 +6,7 @@
 
   .dropdown {
     padding: 0 2rem 0 1rem;
-    border: 1px solid #ccc;
+    border: 1.5px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
@@ -64,9 +64,10 @@
     position: absolute;
     width: 100%;
     border: 1px solid #ccc;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 5px 5px;
     max-height: 20rem;
     overflow-y: auto;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
 
     .option-item {
       padding: 0.5rem;
