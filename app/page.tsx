@@ -13,12 +13,8 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <CustomSelect options={weekdayOptions} label="Select a day" />
-      <CustomSelect
-        options={weekdayOptions}
-        label="Select multiple days"
-        multiple
-      />
+      <CustomSelect options={weekdayOptions} label="Day" />
+      <CustomSelect options={weekdayOptions} label="Days" multiple />
     </main>
   );
 }
